@@ -1,0 +1,12 @@
+{
+    "name": "administrator/phpc",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "file": "core/helper.php",
+        "psr-4": {
+            "app\\": "app/"
+        }
+    }
+}
